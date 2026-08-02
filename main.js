@@ -170,7 +170,7 @@ Sent from Aman Portfolio Website`;
 function preloadImages() {
   for (let i = 1; i <= TOTAL_FRAMES; i++) {
     const img = new Image();
-    const src = `/frames/ezgif-frame-${pad3(i)}.jpg`;
+    const src = `public/frames/ezgif-frame-${pad3(i)}.jpg`;
     img.src = src;
 
     img.onload = () => {
